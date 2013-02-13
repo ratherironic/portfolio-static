@@ -37,7 +37,7 @@ body { background-color: #E3D4C4; }
 #main-container .home h2 { color: #7B270F; font-size: 400%; line-height: 40px; }
 #main-container .home p { color: #7B270F; font-size: 280%; }
 #main-container .work ul li { height: 350px; margin: 35px auto; position: relative; width: 700px; }
-#main-container .work img { left: 0; position: absolute; top: 0; }
+#main-container .work img { border-bottom: 5px solid #4D030A; left: 0; position: absolute; top: 0; }
 #main-container .work a { color: #BD6D27; }
 #main-container .work .description { left: 350px; position: absolute; top: 0; }
 #main-container .work .description { margin-left: 20px; width: 320px; }
