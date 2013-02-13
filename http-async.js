@@ -1,6 +1,7 @@
 var http = require('http'),
 	fs = require('fs'),
-	path = require('path');
+	path = require('path'),
+	port = process.env.PORT || 5000;
 
 http.createServer(function(req, res) {
 	res.setHeader('Content-Type', 'text/html');
@@ -37,6 +38,6 @@ http.createServer(function(req, res) {
 		    res.end(data, 'utf-8');
     	}
     });
-}).listen(8080, function() {
-	console.log('Listening on 8080....');
+}).listen(port, function() {
+	console.log('Listening on 54345....');
 })
