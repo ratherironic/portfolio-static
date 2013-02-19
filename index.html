@@ -15,141 +15,233 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 
     <link href='http://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/app/main.css" />
+    <link rel="stylesheet" href="assets/generated/css/main.css" />
     
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   </head>
   <body>
-    <div class="nav">
-      <ul>
-        <li class="home"><a href="#">Home</a><span></span></li>
-        <li class="work"><a href="#work">Work</a><span></span></li>
-        <li class="brew"><a href="#brew">Brew</a><span></span></li>
-        <li class="about"><a href="#about">About</a><span></span></li>
-      </ul>
-    </div>
-    <div id="main-container">
-      <div id="home" class="home">
-        <a href="#"></a>
-        <img src="/assets/img/bkg.main.png" alt="I'm Matt Gordon" />
-        <div class="section-title">
-          <h1>Hello. I'm Matthew Gordon!</h1>
-          <h2>I’m an Interactive Developer.</h2>
-          <p>It’s very nice to meet you.</p>
+    <div id="section_main">
+      <div class="nav">
+        <ul id="section_nav">
+          <li class="home"><a href="#">Home</a><span></span></li>
+          <li class="work"><a href="#work">Work</a><span></span></li>
+          <li class="brew"><a href="#brew">Brew</a><span></span></li>
+          <li class="about"><a href="#about">About</a><span></span></li>
+        </ul>
+      </div>
+      <div id="main_container">
+        <div id="home" class="home">
+          <a href="#"></a>
+          <img src="/assets/img/portfolio_guy.png" alt="Oh look it's me." />
+          <div class="section-title">
+            <h1>Hello. I'm Matthew Gordon!</h1>
+            <h2>I’m an Interactive Developer.</h2>
+            <p>It’s very nice to meet you.</p>
+          </div>
+        </div>
+        <a href="#work"></a>
+        <div id="work" class="work">
+        <h2>{ Work }</h2>
+        <p class="info">&ldquo;I write code sometimes.&rdquo;</p>
+        <img src="/assets/img/portfolio_guy_code.png" alt="Get it? It's a joke." />
+        <ul>
+          <li>
+            <a href="http://applebees.com">
+              <img src="assets/img/applebees.jpg" alt="Applebees" />
+            </a>
+            <div class="description">
+              <h3>Applebees</h3>
+              <p>CP+B took on Applebees as a client in 2012, a huge win for the agency and a huge task for the development team. We needed to perform a complete site rebuild in the course of a couple of weeks. It was a few rather late nights but we pulled through with a high level of code quality.</p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>Sitecore</li>
+                <li>ASP.net</li>
+                <li>LAB.JS</li>
+                <li>Backbone.js</li>
+                <li>jQuery</li>
+              </ul>
+              <h4>Link:</h4>
+              <p><a href="http://applebees.com">Applebees.com</a></p>
+            </div>
+          </li>
+          <li>
+            <a href="http://arbys.com">
+              <img src="assets/img/arbys.jpg" alt="Arbys" />
+            </a>
+            <div class="description">
+              <h3>Arby's</h3>
+              <p>General site maintenance may not be the sexiest of work, but it's something that needs to happen. For Arby's, I worked on general site maintenance as well as lead the monthly promotional Email blasts+landing pages.</p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>MODX Content Management System</li>
+                <li>LAB.JS</li>
+                <li>Backbone.js</li>
+                <li>jQuery</li>
+              </ul>
+              <h4>Link:</h4>
+              <p><a href="http://arbys.com">Arbys.com</a></p>
+            </div>
+          </li>
+          <li>
+            <a href="http://openforum.com">
+              <img src="assets/img/amex.jpg" alt="AMEX" />
+            </a>
+            <div class="description">
+              <h3>OPEN Form by American Express</h3>
+              <p>Worked on the front of .Net application to update older application to new design. Lots of experience with implementing new social tools and analytics software such as Omniture.</p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>.Net</li>
+                <li>jQuery</li>
+                <li>Omniture Tracking</li>
+                <li>Social Tool Integration</li>
+              </ul>
+              <h4>Link:</h4>
+              <p><a href="http://openforum.com">OPEN Forum</a></p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/oldnavy.jpg" alt="OldNavy" />
+            <div class="description">
+              <h3>Old Navy Cheermageddon</h3>
+              <p>Cheermageddon was the name for Old Navy's 2012 Black Friday sale. Due to the short lifespan of this project many awesome new were able to be used. This provided both a fantasic opportunity and a learning experience. Plus it yielded what is by far my proudest moment working in advertising: <a href="http://www.youtube.com/watch?v=bN3458ksv8E">this.</a></p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>Node.JS</li>
+                <li>SASS</li>
+                <li>Grunt.JS</li>
+                <li>Compass</li>
+                <li>Swig Templating</li>
+                <li>Backbone.JS</li>
+                <li>jQuery</li>
+                <li>responsively designed</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="http://epicmix.com">
+              <img src="assets/img/epicmix.jpg" alt="EpicMix" />
+            </a>
+            <div class="description">
+              <h3>Vail's EpicMix</h3>
+              <p>The first 'professional' project I worked on. Huge enterprize .Net application and front end to display the 'pins' and achievements a user has earned while skiing. Really fun idea!</p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>Sitecore</li>
+                <li>.Net</li>
+                <li>jQuery</li>
+              </ul>
+              <h4>Link:</h4>
+              <p><a href="http://epicmix.com">EpicMix.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="description no-image">
+              <h3>And many more!</h3>
+              <p>Jello.com, Dominos.com, Dominos Micro-sites, Facebook tabs for Kraft Products(Jello, Mac and Cheese) and many more internal projects that I'm not allowed to show on here!</p>
+            </div>
+          </li>
+        </ul>
+        </div>
+        <div id="brew" class="brew">
+           <a href="#brew"></a>
+          <h2>{ Brew }</h2>
+          <div class="brew-data">
+            <img src="/assets/img/bkg.main.png" alt="Isn't beer great?" />
+            <div class="copy">
+              <p class="info">Ah, beer. Beverage whos history is as rich as the malty grains that produce it. About 2 years ago I took up homebrewing in an effort to create my own craft beers. The results have been generally positive.</p>
+              <h3>Currently Brewing: Ich Bin Mine Berliner</h3>
+              <p>A Berliner Weisse beer, sour wheat beer.<p>
+              <h3>Kegorator</h3>
+              <p>Current Tempurature: 40&#176;</p>
+            </div>
+          </div>
+          <div id="brew-bubbles" class="bubbles"></div>
+        </div>
+        <div id="about" class="about">
+          <a href="#about"></a>
+          <h2>{ About }</h2>
+          <p class="info">Questions which no one has asked but I will still answer:</p>
+          <dl>
+            <dt>Where did you go to school<span>?</span></dt>
+            <dd>Rochester Institute of Technology, graduated from the New Media Interactive Development program in 2010.</dd>
+            <dt>a/s/l<span>?</span></dt>
+            <dd>24/m/boulder,co</dd>
+            
+            <dt>So where are you from<span>?</span></dt>
+            <dd>I'm from Fredonia, NY, a small town in upstate who wins the Guiness World Record for most bars per-capita(or so I hear)</dd>
+            <dt>Whats the deal with ratherironic<span>?</span></dt>
+            <dd>No idea. Seriously.</dd>
+            <dt>What is your favorite beer<span>?</span> Since you are clearly obsessed.</dt>
+            <dd>Southern Tier's Creme Brule Stout</dd>
+            <dt>On average how much coffee do you drink<span>?</span></dt>
+            <dd>Too much.</dd>
+            <dt>What was your favorite cartoon as a kid<span>?</span></dt>
+            <dd>Ed, Edd and Eddy.</dd>
+            <dt>If you weren't a developer what would you be<span>?</span></dt>
+            <dd>Dead. Or a barista. Maybe a brewer if I knew how to get an in on that.</dd>
+            <dt>What is your favorite charecte on tf2<span>?</span></dt>
+            <dd>Spy.</dd>
+            <dt>Sports<span>?</span></dt>
+            <dd>Sometimes.</dd>
+            <dt>What other things do you do for fun<span>?</span></dt>
+            <dd>Boardgames. I will destroy you at Dominion. Actually no I probably wont but we should totally play if you read that and know the game I'm speaking of.</dd>
+            <dt>Did you design this site yourself? (it shows)<span>?</span></dt>
+            <dd>Yes. Shut up.</dd>
+          </dl>
+        </div>
+        <div id="footer">
+          <div class="footer-content">
+            <h3>Thanks for stopping by!</h3>
+            <p class="legal">&copy; Matthew Gordon 2013</p>
+            <ul>
+              <li class="mail"><a href="mailto:ratherironic@gmail.com"></a></li>
+              <li class="twitter"><a href="https://twitter.com/ratherironic"></a></li>
+              <li class="github"><a href="https://github.com/ratherironic"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div id="work" class="work">
-      <a href="#work"></a>
-      <h2>{ Work }</h2>
-      <p class="info">Welcome to the area you were looking for (probably). The area to look at to see what and how I do.</p>
-      <ul>
-        <li>
-          <img src="assets/img/applebees.jpg" alt="Applebees" />
-          <div class="description">
-            <h3>Applebees</h3>
-            <p>CP+B took on Applebees as a client in 2012, a huge win for the agency and a huge task for the development team. We needed to perform a complete site rebuild in the course of a couple of weeks. It was a few rather late nights but we pulled through with a high level of code quality.</p>
-            <h4>Technologies used:</h4>
-            <ul>
-              <li>Sitecore</li>
-              <li>ASP.net</li>
-              <li>LAB.JS</li>
-              <li>Backbone.js</li>
-              <li>jQuery</li>
-            </ul>
-            <h4>Link:</h4>
-            <p><a href="http://applebees.com">Applebees.com</a></p>
-          </div>
-        </li>
-        <li>
-          <img src="assets/img/arbys.jpg" alt="Arbys" />
-          <div class="description">
-            <h3>Arby's</h3>
-            <p>General site maintenance may not be the sexiest of work, but it's something that needs to happen. For Arby's, I worked on general site maintenance as well as lead the monthly promotional Email blasts+landing pages.</p>
-            <h4>Technologies used:</h4>
-            <ul>
-              <li>MODX Content Management System</li>
-              <li>LAB.JS</li>
-              <li>Backbone.js</li>
-              <li>jQuery</li>
-            </ul>
-            <h4>Link:</h4>
-            <p><a href="http://arbys.com">Arbys.com</a></p>
-          </div>
-        </li>
-        <li>
-          <img src="assets/img/amex.jpg" alt="AMEX" />
-          <div class="description">
-            <h3>OPEN Form by American Express</h3>
-            <p>Worked on the front of .Net application to update older application to new design. Lots of experience with implementing new social tools and analytics software such as Omniture.</p>
-            <h4>Technologies used:</h4>
-            <ul>
-              <li>.Net</li>
-              <li>jQuery</li>
-              <li>Omniture Tracking</li>
-              <li>Social Tool Integration</li>
-            </ul>
-            <h4>Link:</h4>
-            <p><a href="http://openforum.com">OPEN Forum</a></p>
-          </div>
-        </li>
-        <li>
-          <img src="assets/img/oldnavy.jpg" alt="OldNavy" />
-          <div class="description">
-            <h3>Old Navy Cheermageddon</h3>
-            <p>Cheermageddon was the name for Old Navy's 2012 Black Friday sale. Due to the short lifespan of this project many awesome new were able to be used. This provided both a fantasic opportunity and a learning experience. Plus it yielded what is by far my proudest moment working in advertising: <a href="http://www.youtube.com/watch?v=bN3458ksv8E">this.</a></p>
-            <h4>Technologies used:</h4>
-            <ul>
-              <li>Node.JS</li>
-              <li>SASS</li>
-              <li>Grunt.JS</li>
-              <li>Compass</li>
-              <li>Swig Templating</li>
-              <li>Backbone.JS</li>
-              <li>jQuery</li>
-              <li>responsively designed</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <img src="assets/img/epicmix.jpg" alt="EpicMix" />
-          <div class="description">
-            <h3>Vail's EpicMix</h3>
-            <p>The first 'professional' project I worked on. Huge enterprize .Net application and front end to display the 'pins' and achievements a user has earned while skiing. Really fun idea!</p>
-            <h4>Technologies used:</h4>
-            <ul>
-              <li>Sitecore</li>
-              <li>.Net</li>
-              <li>jQuery</li>
-            </ul>
-            <h4>Link:</h4>
-            <p><a href="http://epicmix.com">EpicMix.com</a></p>
-        </div>
-        </li>
-      </ul>
-      </div>
-      <div id="brew" class="brew">
-         <a href="#brew"></a>
-        <h2>{ Brew }</h2>
-        <p class="info">Ah, beer. Beverage whos history is as rich as the malty grains that produce it. About 2 years ago I took up homebrewing in an effort to create my own craft beers. The results have been generally positive.</p>
-        <h3>Currently Brewing</h3>
-        <p>Berliner Weisse<p>
-        <p><strong>Due:</strong> soon. I hope.</p>
-        <h3>Kegorator</h3>
-        <p>I hope to fill this section with statistics on my kegorator. Still working on that.</p>
-      </div>
-      <div id="about" class="about">
-        <a href="#about"></a>
-        <h2>{ About }</h2>
-        <p class="info">Welcome to the page where I talk about my history. Some people might call this an About Me page, or a self edited wikipedia page. Either way, you're about to learn a lot of infomation you could probably care less about so brace yourself and I'll try to keep this short.</p>
-        <p>I'm from Fredonia, NY, a small town in upstate who wins the Guiness World Record for most bars per-capita(or so I hear, no idea if that's true). I wrote my first "Hello World" in C while in the 4th grade and my first full on website in 5th. Attended college and achieved a Bachelor's degree in New Media Interactive Development from Rochester Institute of Technology in 2010.</p>
-        <p>After College, I moved to Colorado where I worked at Cripsin Porter and Bogusky til now.</p>
-        <h3>Contact me!</h3>
-        <p><a href="mailto:ratherironic@gmail.com">Email me!</a></p>
-        <p><a href="https://twitter.com/ratherironic">I tweet too!</a></p>
-      </div>
     </div>
+    <script src="assets/js/lib/LAB.min.js"></script>
+    <script>
+      var config = {
+
+      };
+
+
+
+      $LAB
+        .setOptions({
+          'Debug': true
+        })
+        // Libraries
+        .script('assets/js/lib/jquery-1.8.2.js').wait()
+        .script('assets/js/lib/underscore.js').wait()
+        .script('assets/js/lib/backbone.js').wait()
+        // Plugins
+        // Backbone - Config
+        .script('assets/js/app/config/AppConfig.js')
+        // Backbone - Routers
+        .script('assets/js/app/router/AppRouter.js')
+        // Backbone - Models
+        // Backbone - Views
+        .script('assets/js/app/view/ScrollView.js').wait(function(){
+  
+        })
+        // Site-Specific JS - Global
+        .script('assets/js/app/app.utilities.js').wait()
+        // Page-Specific JS
+        .script('assets/js/app/app.global.js').wait(function() {
+          window.isDebugMode = true;
+          App.Global.init(config);
+          var scrollView = new ScrollView({
+            'el': '#section_main'
+          });
+        });
+    </script>
   </body>
 </html> 

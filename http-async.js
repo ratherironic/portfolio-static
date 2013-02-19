@@ -39,5 +39,5 @@ http.createServer(function(req, res) {
     	}
     });
 }).listen(port, function() {
-	console.log('Listening on 54345....');
+	console.log('Listening on '+ port +'....');
 })
