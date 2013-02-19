@@ -2,7 +2,14 @@
   "name": "portfolio",
   "version": "0.0.1",
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    	"node": "0.8.x",
+    	"npm": "1.1.x"
+  },
+  "dependencies": {
+	"grunt-beautify": ">= 0.1.0",
+	"grunt-crusher": ">= 0.1.0",
+	"grunt-jslint": ">= 0.1.0",
+	"grunt-css": ">= 0.2.1",
+	"grunt-compass": ">= 0.3.0"
   }
 }
