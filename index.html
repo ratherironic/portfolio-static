@@ -217,42 +217,5 @@
   ga('send', 'pageview');
 
 </script>
-    <script src="assets/js/lib/LAB.min.js"></script>
-    <script>
-      var config = {
-
-      };
-
-
-
-      $LAB
-        .setOptions({
-          'Debug': true
-        })
-        // Libraries
-        .script('assets/js/lib/jquery-1.8.2.js').wait()
-        .script('assets/js/lib/underscore.js').wait()
-        .script('assets/js/lib/backbone.js').wait()
-        // Plugins
-        // Backbone - Config
-        .script('assets/js/app/config/AppConfig.js')
-        // Backbone - Routers
-        .script('assets/js/app/router/AppRouter.js')
-        // Backbone - Models
-        // Backbone - Views
-        .script('assets/js/app/view/ScrollView.js').wait(function(){
-  
-        })
-        // Site-Specific JS - Global
-        .script('assets/js/app/app.utilities.js').wait()
-        // Page-Specific JS
-        .script('assets/js/app/app.global.js').wait(function() {
-          window.isDebugMode = true;
-          App.Global.init(config);
-          var scrollView = new ScrollView({
-            'el': '#section_main'
-          });
-        });
-    </script>
   </body>
 </html> 
