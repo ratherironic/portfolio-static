@@ -158,40 +158,45 @@
     color: #7B270F;
     font-size: 280%;
   }
+  /* line 135, ../../../scss/main.scss */
+  .home a {
+    color: #163A47;
+    text-decoration: none;
+  }
 
-  /* line 137, ../../../scss/main.scss */
+  /* line 141, ../../../scss/main.scss */
   .work {
     background: url(../../img/bkg.work.jpg) 0 0 #cbbdaf;
   }
-  /* line 139, ../../../scss/main.scss */
+  /* line 143, ../../../scss/main.scss */
   .work > img {
     display: block;
     margin: 0 auto;
     width: 483px;
   }
-  /* line 144, ../../../scss/main.scss */
+  /* line 148, ../../../scss/main.scss */
   .work h2 {
     background-color: #BD6D27;
   }
-  /* line 147, ../../../scss/main.scss */
+  /* line 151, ../../../scss/main.scss */
   .work > ul {
     background: url(../../img/bkg.work.png) 0 0 #351a02;
     margin-top: -110px;
     padding-top: 140px;
   }
-  /* line 153, ../../../scss/main.scss */
+  /* line 157, ../../../scss/main.scss */
   .work ul li {
     height: 350px;
     margin: 35px auto;
     position: relative;
     width: 700px;
   }
-  /* line 158, ../../../scss/main.scss */
+  /* line 162, ../../../scss/main.scss */
   .work ul li ul {
     overflow: hidden;
     position: relative;
   }
-  /* line 161, ../../../scss/main.scss */
+  /* line 165, ../../../scss/main.scss */
   .work ul li ul li {
     color: #F4F4F4;
     float: left;
@@ -201,18 +206,18 @@
     margin: 0px;
     width: 160px;
   }
-  /* line 169, ../../../scss/main.scss */
+  /* line 173, ../../../scss/main.scss */
   .work ul li ul li img {
     border-bottom: 5px solid #4D030A;
     left: 0;
     position: absolute;
     top: 0;
   }
-  /* line 179, ../../../scss/main.scss */
+  /* line 183, ../../../scss/main.scss */
   .work a {
     color: #BD6D27;
   }
-  /* line 182, ../../../scss/main.scss */
+  /* line 186, ../../../scss/main.scss */
   .work .description {
     left: 350px;
     margin-left: 20px;
@@ -220,43 +225,43 @@
     top: 0;
     width: 320px;
   }
-  /* line 188, ../../../scss/main.scss */
+  /* line 192, ../../../scss/main.scss */
   .work .description h3 {
     color: #C9753D;
     font-family: "Medula One", cursive;
     font-size: 197%;
   }
-  /* line 193, ../../../scss/main.scss */
+  /* line 197, ../../../scss/main.scss */
   .work .description p {
     color: #F4F4F4;
     font-family: "Oxygen", sans-serif;
     font-size: 108%;
   }
-  /* line 198, ../../../scss/main.scss */
+  /* line 202, ../../../scss/main.scss */
   .work .description h4 {
     color: #C9753D;
     font-family: "Medula One", cursive;
     font-size: 167%;
     margin-top: 6px;
   }
-  /* line 205, ../../../scss/main.scss */
+  /* line 209, ../../../scss/main.scss */
   .work .no-image {
     left: 0;
   }
 
-  /* line 209, ../../../scss/main.scss */
+  /* line 213, ../../../scss/main.scss */
   .brew {
     background: url(../../img/bkg.brew.jpg) 0 0 #bd6d27;
     position: relative;
     overflow: hidden;
   }
-  /* line 213, ../../../scss/main.scss */
+  /* line 217, ../../../scss/main.scss */
   .brew h2 {
     background-color: #57040D;
     position: relative;
     z-index: 2;
   }
-  /* line 219, ../../../scss/main.scss */
+  /* line 223, ../../../scss/main.scss */
   .brew .bubbles {
     background: url(../../img/bkg.brew_bubbles.png) transparent;
     display: block;
@@ -282,7 +287,7 @@
     -webkit-animation-name: bubble;
     -o-animation-name: bubble;
   }
-  /* line 245, ../../../scss/main.scss */
+  /* line 249, ../../../scss/main.scss */
   .brew .brew-data {
     margin: 0 auto;
     position: relative;
@@ -290,24 +295,24 @@
     width: 700px;
     z-index: 2;
   }
-  /* line 251, ../../../scss/main.scss */
+  /* line 255, ../../../scss/main.scss */
   .brew .brew-data img {
     float: left;
   }
-  /* line 254, ../../../scss/main.scss */
+  /* line 258, ../../../scss/main.scss */
   .brew .brew-data .copy {
     float: left;
     margin-left: 20px;
     width: 390px;
   }
-  /* line 258, ../../../scss/main.scss */
+  /* line 262, ../../../scss/main.scss */
   .brew .brew-data .copy h3 {
     font-family: "Medula One", cursive;
     font-size: 197%;
     margin: 15px auto;
     width: 700px;
   }
-  /* line 264, ../../../scss/main.scss */
+  /* line 268, ../../../scss/main.scss */
   .brew .brew-data .copy p {
     color: #7B270F;
     font-family: "Medula One", cursive;
@@ -317,79 +322,79 @@
     width: auto;
   }
 
-  /* line 275, ../../../scss/main.scss */
+  /* line 279, ../../../scss/main.scss */
   .about {
     background: url(../../img/bkg.aboutme.jpg) 0 0 #4d030a;
   }
-  /* line 277, ../../../scss/main.scss */
+  /* line 281, ../../../scss/main.scss */
   .about .info {
     color: #F4F4F4;
   }
-  /* line 280, ../../../scss/main.scss */
+  /* line 284, ../../../scss/main.scss */
   .about h2 {
     background-color: #CBBDAF;
   }
-  /* line 283, ../../../scss/main.scss */
+  /* line 287, ../../../scss/main.scss */
   .about dl {
     margin: 0 auto;
     width: 700px;
   }
-  /* line 286, ../../../scss/main.scss */
+  /* line 290, ../../../scss/main.scss */
   .about dl dt {
     color: #C9753D;
     font-family: "Medula One", cursive;
     font-size: 167%;
     margin-top: 6px;
   }
-  /* line 291, ../../../scss/main.scss */
+  /* line 295, ../../../scss/main.scss */
   .about dl dt span {
     top: -3px;
     position: relative;
   }
-  /* line 296, ../../../scss/main.scss */
+  /* line 300, ../../../scss/main.scss */
   .about dl dd {
     color: #F4F4F4;
     font-family: "Oxygen", sans-serif;
     font-size: 108%;
   }
 
-  /* line 303, ../../../scss/main.scss */
+  /* line 307, ../../../scss/main.scss */
   #footer {
     background-color: #163A47;
     padding-top: 10px;
   }
-  /* line 306, ../../../scss/main.scss */
+  /* line 310, ../../../scss/main.scss */
   #footer h3 {
     color: #CBBDAF;
     font-family: "Medula One", cursive;
     font-size: 168%;
     text-align: center;
   }
-  /* line 312, ../../../scss/main.scss */
+  /* line 316, ../../../scss/main.scss */
   #footer .legal {
     color: #F4F4F4;
     font-family: "Oxygen", sans-serif;
     font-size: 108%;
     text-align: center;
   }
-  /* line 318, ../../../scss/main.scss */
+  /* line 322, ../../../scss/main.scss */
   #footer .footer-content {
     display: block;
     margin: 0 auto;
     position: relative;
     width: 700px;
   }
-  /* line 323, ../../../scss/main.scss */
+  /* line 327, ../../../scss/main.scss */
   #footer .footer-content ul {
     padding-bottom: 20px;
     position: relative;
     overflow: hidden;
   }
-  /* line 327, ../../../scss/main.scss */
+  /* line 331, ../../../scss/main.scss */
   #footer .footer-content ul li a {
     margin: 0 5px;
   }
-  /* line 333, ../../../scss/main.scss */
+  /* line 337, ../../../scss/main.scss */
   #footer .footer-content .mail a,
   #footer .footer-content .twitter a,
   #footer .footer-content .github a {
@@ -399,31 +404,31 @@
     height: 50px;
     width: 50px;
   }
-  /* line 339, ../../../scss/main.scss */
+  /* line 343, ../../../scss/main.scss */
   #footer .footer-content .mail a {
     background-position: -59px 0;
   }
-  /* line 340, ../../../scss/main.scss */
+  /* line 344, ../../../scss/main.scss */
   #footer .footer-content .github a {
     background-position: -122px 0;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 346, ../../../scss/main.scss */
+  /* line 350, ../../../scss/main.scss */
   .home {
     padding-bottom: 1em;
   }
-  /* line 349, ../../../scss/main.scss */
+  /* line 353, ../../../scss/main.scss */
   .home .section-title {
     left: auto;
     position: relative;
     top: auto;
   }
-  /* line 355, ../../../scss/main.scss */
+  /* line 359, ../../../scss/main.scss */
   .home img {
     display: none;
   }
-  /* line 359, ../../../scss/main.scss */
+  /* line 363, ../../../scss/main.scss */
   .home h1 {
     color: #fff;
     font-size: 480%;
@@ -431,7 +436,7 @@
     text-align: center;
     text-shadow: 0px 2px 2px rgba(180, 0, 53, 0.4);
   }
-  /* line 368, ../../../scss/main.scss */
+  /* line 372, ../../../scss/main.scss */
   .home h2,
   .home p {
     color: #fff;
@@ -439,26 +444,26 @@
     text-align: center;
   }
 
-  /* line 375, ../../../scss/main.scss */
+  /* line 379, ../../../scss/main.scss */
   .work > img {
     display: none;
   }
-  /* line 378, ../../../scss/main.scss */
+  /* line 382, ../../../scss/main.scss */
   .work > ul {
     margin-top: -20px;
     padding-bottom: 30px;
   }
-  /* line 381, ../../../scss/main.scss */
+  /* line 385, ../../../scss/main.scss */
   .work > ul img {
     display: block;
     position: relative;
     width: 300px;
   }
-  /* line 388, ../../../scss/main.scss */
+  /* line 392, ../../../scss/main.scss */
   .work ul li {
     height: auto;
   }
-  /* line 392, ../../../scss/main.scss */
+  /* line 396, ../../../scss/main.scss */
   .work .description {
     left: auto;
     margin: 20px 0;
@@ -466,26 +471,26 @@
     top: auto;
   }
 
-  /* line 401, ../../../scss/main.scss */
+  /* line 405, ../../../scss/main.scss */
   .brew .brew-data img {
     display: block;
     float: none;
     margin: 0 auto;
     width: 281px;
   }
-  /* line 407, ../../../scss/main.scss */
+  /* line 411, ../../../scss/main.scss */
   .brew .brew-data .copy {
     float: none;
     margin: 0 auto;
     width: 300px;
   }
 
-  /* line 415, ../../../scss/main.scss */
+  /* line 419, ../../../scss/main.scss */
   #footer .legal {
     padding-bottom: 20px;
   }
 
-  /* line 431, ../../../scss/main.scss */
+  /* line 435, ../../../scss/main.scss */
   .home,
   .work .info,
   .brew .info,
@@ -502,18 +507,6 @@
   }
 }
 @keyframes bubble {
-  /* line 435, ../../../scss/main.scss */
-  0% {
-    background-position: 0 0;
-  }
-
-  /* line 436, ../../../scss/main.scss */
-  100% {
-    background-position: 0 -924px;
-  }
-}
-
-@-moz-keyframes bubble {
   /* line 439, ../../../scss/main.scss */
   0% {
     background-position: 0 0;
@@ -525,25 +518,37 @@
   }
 }
 
-@-webkit-keyframes bubble {
-  /* line 444, ../../../scss/main.scss */
+@-moz-keyframes bubble {
+  /* line 443, ../../../scss/main.scss */
   0% {
     background-position: 0 0;
   }
 
-  /* line 445, ../../../scss/main.scss */
+  /* line 444, ../../../scss/main.scss */
   100% {
     background-position: 0 -924px;
   }
 }
 
-@-o-keyframes bubble {
+@-webkit-keyframes bubble {
   /* line 448, ../../../scss/main.scss */
   0% {
     background-position: 0 0;
   }
 
   /* line 449, ../../../scss/main.scss */
+  100% {
+    background-position: 0 -924px;
+  }
+}
+
+@-o-keyframes bubble {
+  /* line 452, ../../../scss/main.scss */
+  0% {
+    background-position: 0 0;
+  }
+
+  /* line 453, ../../../scss/main.scss */
   100% {
     background-position: 0 -924px;
   }
