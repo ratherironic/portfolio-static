@@ -1,75 +1,550 @@
-body { background-color: #E3D4C4; }
-.nav { position: fixed; top: 0; width: 100%; z-index: 5; }
-.nav ul { border-bottom:3px solid #CBBDAF; display: block; overflow: hidden; position: relative; }
-.nav ul li { display: block; float: left; font-family: 'Medula One', cursive; height: 45px; padding-top: 10px; position: relative; text-align: center; width: 25%; }
-.nav ul li a { color: #9B531E; font-size: 231.6%; text-decoration: none; position: relative; z-index: 3; }
-.nav ul .home { border-bottom: 5px solid #CB752A; background-color: #E38430; }
-.nav ul .work { border-bottom: 5px solid #A96122; background-color: #BD6D27; }
-.nav ul .brew { border-bottom: 5px solid #7B270F; background-color: #8A2C12; }
-.nav ul .about { border-bottom: 5px solid #4D030A; background-color: #57040D; }
-.nav ul li span { background-color: #4D030A; display: block; height: 0px; position: relative; top: 60px; width: 100%; z-index: 1;
-	transition:height 0.4s, top 0.4s;
-	-moz-transition:height 0.4s, top 0.4s; /* Firefox 4 */
-	-webkit-transition:height 0.4s, top 0.4s; /* Safari and Chrome */
-	-o-transition:height 0.4s, top 0.4s; /* Opera */ }
-.nav ul li:hover span { height: 60px; top: -51px; }
-#main-container { margin-top: 65px;, }
-#main-container .home,
-#main-container .work,
-#main-container .brew,
-#main-container .about { padding: 30px 0; }
-#main-container .home { background: url(../../img/bkg.home.jpg) 0 0 #E3D4C4; }
-#main-container .work { background: url(../../img/bkg.work.jpg) 0 0 #CBBDAF; }
-#main-container .brew { background: url(../../img/bkg.brew.jpg) 0 0 #BD6D27; }
-#main-container .about{ background: url(../../img/bkg.aboutme.jpg) 0 0  #4D030A; }
-#main-container .work h2,
-#main-container .brew h2,
-#main-container .about h2 { border-radius: 50%; font-family: 'Medula One', cursive; color: #8A2C12; font-size: 300%; height: 80px; margin: 20px auto; padding-top: 35px; text-align: center; width: 120px; }
-#main-container .work h2 { background-color: #BD6D27; }
-#main-container .brew h2 { background-color: #57040D; }
-#main-container .about h2 { background-color: #CBBDAF; }
-#main-container .work .info,
-#main-container .brew .info,
-#main-container .about .info { font-family: 'Medula One', cursive; font-size: 180%; margin: 10px auto 0; text-align: center; width: 700px; }
-#main-container .home { display: block; font-family: 'Medula One', cursive; margin: 0 auto; overflow: hidden; position: relative; width: 700px; }
-#main-container .home .section-title { left: 173px; position: absolute; top: 70px; }
-#main-container .home h1 { color: #C9753D; font-size: 590%; line-height: 85px; }
-#main-container .home h2 { color: #7B270F; font-size: 400%; line-height: 40px; }
-#main-container .home p { color: #7B270F; font-size: 280%; }
-#main-container .work ul li { height: 350px; margin: 35px auto; position: relative; width: 700px; }
-#main-container .work img { border-bottom: 5px solid #4D030A; left: 0; position: absolute; top: 0; }
-#main-container .work a { color: #BD6D27; }
-#main-container .work .description { left: 350px; position: absolute; top: 0; }
-#main-container .work .description { margin-left: 20px; width: 320px; }
-#main-container .work .description h3 { font-family: 'Medula One', cursive; font-size: 197%; }
-#main-container .work ul li ul li,
-#main-container .work .description p { color: #7B270F; font-family: 'Medula One', cursive; font-size: 138.5%; }
-#main-container .work .description h4 { font-family: 'Medula One', cursive; font-size: 167%; margin-top: 6px; }
-#main-container .work ul li ul li { height: auto; margin: 0px auto; }
-#main-container .brew h3,
-#main-container .about h3 { font-family: 'Medula One', cursive; font-size: 197%; margin: 15px auto; width: 700px; }
-#main-container .brew p { color: #7B270F; font-family: 'Medula One', cursive; font-size: 138.5%; margin: 15px auto; width: 700px; }
-#main-container .about h3 { color: #E3D4C4; }
-#main-container .about p { color: #E3D4C4; display: block; font-family: 'Roboto Condensed', sans-serif; font-size: 158.5%; margin: 15px auto; width: 700px; }
-#main-container .about p a { color: #BD6D27; }
+@media screen {
+  /* line 5, ../../../scss/main.scss */
+  body {
+    background: url(../../img/bkg.home.jpg) 0 0 #e3d4c4;
+  }
 
+  /* line 8, ../../../scss/main.scss */
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  /* line 13, ../../../scss/main.scss */
+  .nav ul {
+    border-bottom: 3px solid #CBBDAF;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 18, ../../../scss/main.scss */
+  .nav ul li {
+    display: block;
+    float: left;
+    font-family: "Medula One", cursive;
+    height: 45px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 25%;
+  }
+  /* line 27, ../../../scss/main.scss */
+  .nav ul li a {
+    color: #9B531E;
+    display: block;
+    font-size: 231.6%;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+    z-index: 3;
+  }
+  /* line 36, ../../../scss/main.scss */
+  .nav ul li span {
+    background-color: #4D030A;
+    display: block;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    z-index: 1;
+    transition: height 0.4s, top 0.4s;
+    -moz-transition: height 0.4s, top 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: height 0.4s, top 0.4s;
+    /* Safari and Chrome */
+    -o-transition: height 0.4s, top 0.4s;
+    /* Opera */
+  }
+  /* line 50, ../../../scss/main.scss */
+  .nav ul .home-nav {
+    border-bottom: 5px solid #CB752A;
+    background-color: #E38430;
+  }
+  /* line 54, ../../../scss/main.scss */
+  .nav ul .work-nav {
+    border-bottom: 5px solid #A96122;
+    background-color: #BD6D27;
+  }
+  /* line 58, ../../../scss/main.scss */
+  .nav ul .brew-nav {
+    border-bottom: 5px solid #7B270F;
+    background-color: #8A2C12;
+  }
+  /* line 62, ../../../scss/main.scss */
+  .nav ul .about-nav {
+    border-bottom: 5px solid #4D030A;
+    background-color: #57040D;
+  }
+  /* line 67, ../../../scss/main.scss */
+  .nav ul li:hover span {
+    height: 60px;
+    top: -60px;
+  }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-	#main-container .home .section-title { left: auto; position: relative; top: auto; }
-	#main-container .home img { display: block; margin: 0 auto; width: 281px; }
-	#main-container .home h1 { font-size: 330%; line-height: 35px; text-align: center; }
-	#main-container .home h2 { font-size: 300%; text-align: center; }
-	#main-container .home,
-	#main-container .work .info,
-	#main-container .brew .info,
-	#main-container .about .info,
-	#main-container .work ul li,
-	#main-container .about h3,
-	#main-container .brew p,
-	#main-container .brew h3,
-	#main-container .about p { width: 300px; }
+  /* line 74, ../../../scss/main.scss */
+  #main_container {
+    margin-top: 95px;
+  }
+
+  /* line 80, ../../../scss/main.scss */
+  .work,
+  .brew,
+  .about {
+    padding: 30px 0;
+  }
+  /* line 82, ../../../scss/main.scss */
+  .work h2,
+  .brew h2,
+  .about h2 {
+    border-radius: 50%;
+    font-family: "Medula One", cursive;
+    color: #8A2C12;
+    font-size: 300%;
+    height: 80px;
+    margin: 20px auto;
+    padding-top: 35px;
+    text-align: center;
+    width: 120px;
+  }
+  /* line 93, ../../../scss/main.scss */
+  .work .info,
+  .brew .info,
+  .about .info {
+    font-family: "Oxygen", sans-serif;
+    font-size: 168%;
+    font-weight: bold;
+    margin: 20px auto 30px;
+    text-align: center;
+    width: 700px;
+  }
+
+  /* line 103, ../../../scss/main.scss */
+  .home {
+    display: block;
+    font-family: "Medula One", cursive;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+  }
+  /* line 110, ../../../scss/main.scss */
+  .home img {
+    margin-bottom: -5px;
+  }
+  /* line 113, ../../../scss/main.scss */
+  .home .section-title {
+    left: 400px;
+    position: absolute;
+    top: 70px;
+    width: 290px;
+  }
+  /* line 119, ../../../scss/main.scss */
+  .home h1 {
+    color: #C9753D;
+    font-size: 495%;
+    line-height: 60px;
+    margin-bottom: 10px;
+  }
+  /* line 125, ../../../scss/main.scss */
+  .home h2 {
+    color: #7B270F;
+    font-size: 400%;
+    line-height: 40px;
+    width: auto;
+  }
+  /* line 131, ../../../scss/main.scss */
+  .home p {
+    color: #7B270F;
+    font-size: 280%;
+  }
+
+  /* line 137, ../../../scss/main.scss */
+  .work {
+    background: url(../../img/bkg.work.jpg) 0 0 #cbbdaf;
+  }
+  /* line 139, ../../../scss/main.scss */
+  .work > img {
+    display: block;
+    margin: 0 auto;
+    width: 483px;
+  }
+  /* line 144, ../../../scss/main.scss */
+  .work h2 {
+    background-color: #BD6D27;
+  }
+  /* line 147, ../../../scss/main.scss */
+  .work > ul {
+    background: url(../../img/bkg.work.png) 0 0 #351a02;
+    margin-top: -110px;
+    padding-top: 140px;
+  }
+  /* line 153, ../../../scss/main.scss */
+  .work ul li {
+    height: 350px;
+    margin: 35px auto;
+    position: relative;
+    width: 700px;
+  }
+  /* line 158, ../../../scss/main.scss */
+  .work ul li ul {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 161, ../../../scss/main.scss */
+  .work ul li ul li {
+    color: #F4F4F4;
+    float: left;
+    font-family: "Oxygen", sans-serif;
+    font-size: 108%;
+    height: auto;
+    margin: 0px;
+    width: 160px;
+  }
+  /* line 169, ../../../scss/main.scss */
+  .work ul li ul li img {
+    border-bottom: 5px solid #4D030A;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  /* line 179, ../../../scss/main.scss */
+  .work a {
+    color: #BD6D27;
+  }
+  /* line 182, ../../../scss/main.scss */
+  .work .description {
+    left: 350px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    width: 320px;
+  }
+  /* line 188, ../../../scss/main.scss */
+  .work .description h3 {
+    color: #C9753D;
+    font-family: "Medula One", cursive;
+    font-size: 197%;
+  }
+  /* line 193, ../../../scss/main.scss */
+  .work .description p {
+    color: #F4F4F4;
+    font-family: "Oxygen", sans-serif;
+    font-size: 108%;
+  }
+  /* line 198, ../../../scss/main.scss */
+  .work .description h4 {
+    color: #C9753D;
+    font-family: "Medula One", cursive;
+    font-size: 167%;
+    margin-top: 6px;
+  }
+  /* line 205, ../../../scss/main.scss */
+  .work .no-image {
+    left: 0;
+  }
+
+  /* line 209, ../../../scss/main.scss */
+  .brew {
+    background: url(../../img/bkg.brew.jpg) 0 0 #bd6d27;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 213, ../../../scss/main.scss */
+  .brew h2 {
+    background-color: #57040D;
+    position: relative;
+    z-index: 2;
+  }
+  /* line 219, ../../../scss/main.scss */
+  .brew .bubbles {
+    background: url(../../img/bkg.brew_bubbles.png) transparent;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    animation-duation: 5s;
+    -moz-animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-name: bubble;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -moz-animation-name: bubble;
+    -webkit-animation-name: bubble;
+    -o-animation-name: bubble;
+  }
+  /* line 245, ../../../scss/main.scss */
+  .brew .brew-data {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    z-index: 2;
+  }
+  /* line 251, ../../../scss/main.scss */
+  .brew .brew-data img {
+    float: left;
+  }
+  /* line 254, ../../../scss/main.scss */
+  .brew .brew-data .copy {
+    float: left;
+    margin-left: 20px;
+    width: 390px;
+  }
+  /* line 258, ../../../scss/main.scss */
+  .brew .brew-data .copy h3 {
+    font-family: "Medula One", cursive;
+    font-size: 197%;
+    margin: 15px auto;
+    width: 700px;
+  }
+  /* line 264, ../../../scss/main.scss */
+  .brew .brew-data .copy p {
+    color: #7B270F;
+    font-family: "Medula One", cursive;
+    font-size: 138.5%;
+    margin: 5px auto;
+    text-align: left;
+    width: auto;
+  }
+
+  /* line 275, ../../../scss/main.scss */
+  .about {
+    background: url(../../img/bkg.aboutme.jpg) 0 0 #4d030a;
+  }
+  /* line 277, ../../../scss/main.scss */
+  .about .info {
+    color: #F4F4F4;
+  }
+  /* line 280, ../../../scss/main.scss */
+  .about h2 {
+    background-color: #CBBDAF;
+  }
+  /* line 283, ../../../scss/main.scss */
+  .about dl {
+    margin: 0 auto;
+    width: 700px;
+  }
+  /* line 286, ../../../scss/main.scss */
+  .about dl dt {
+    color: #C9753D;
+    font-family: "Medula One", cursive;
+    font-size: 167%;
+    margin-top: 6px;
+  }
+  /* line 291, ../../../scss/main.scss */
+  .about dl dt span {
+    top: -3px;
+    position: relative;
+  }
+  /* line 296, ../../../scss/main.scss */
+  .about dl dd {
+    color: #F4F4F4;
+    font-family: "Oxygen", sans-serif;
+    font-size: 108%;
+  }
+
+  /* line 303, ../../../scss/main.scss */
+  #footer {
+    background-color: #163A47;
+    padding-top: 10px;
+  }
+  /* line 306, ../../../scss/main.scss */
+  #footer h3 {
+    color: #CBBDAF;
+    font-family: "Medula One", cursive;
+    font-size: 168%;
+    text-align: center;
+  }
+  /* line 312, ../../../scss/main.scss */
+  #footer .legal {
+    color: #F4F4F4;
+    font-family: "Oxygen", sans-serif;
+    font-size: 108%;
+    text-align: center;
+  }
+  /* line 318, ../../../scss/main.scss */
+  #footer .footer-content {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+  }
+  /* line 323, ../../../scss/main.scss */
+  #footer .footer-content ul {
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 327, ../../../scss/main.scss */
+  #footer .footer-content ul li a {
+    margin: 0 5px;
+  }
+  /* line 333, ../../../scss/main.scss */
+  #footer .footer-content .mail a,
+  #footer .footer-content .twitter a,
+  #footer .footer-content .github a {
+    background: url(../../img/bkg.footer-sprite.png) 0 0 transparent;
+    display: block;
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  /* line 339, ../../../scss/main.scss */
+  #footer .footer-content .mail a {
+    background-position: -59px 0;
+  }
+  /* line 340, ../../../scss/main.scss */
+  #footer .footer-content .github a {
+    background-position: -122px 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 346, ../../../scss/main.scss */
+  .home {
+    padding-bottom: 1em;
+  }
+  /* line 349, ../../../scss/main.scss */
+  .home .section-title {
+    left: auto;
+    position: relative;
+    top: auto;
+  }
+  /* line 355, ../../../scss/main.scss */
+  .home img {
+    display: none;
+  }
+  /* line 359, ../../../scss/main.scss */
+  .home h1 {
+    color: #fff;
+    font-size: 480%;
+    line-height: 50px;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(180, 0, 53, 0.4);
+  }
+  /* line 368, ../../../scss/main.scss */
+  .home h2,
+  .home p {
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  /* line 375, ../../../scss/main.scss */
+  .work > img {
+    display: none;
+  }
+  /* line 378, ../../../scss/main.scss */
+  .work > ul {
+    margin-top: -20px;
+    padding-bottom: 30px;
+  }
+  /* line 381, ../../../scss/main.scss */
+  .work > ul img {
+    display: block;
+    position: relative;
+    width: 300px;
+  }
+  /* line 388, ../../../scss/main.scss */
+  .work ul li {
+    height: auto;
+  }
+  /* line 392, ../../../scss/main.scss */
+  .work .description {
+    left: auto;
+    margin: 20px 0;
+    position: relative;
+    top: auto;
+  }
+
+  /* line 401, ../../../scss/main.scss */
+  .brew .brew-data img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 281px;
+  }
+  /* line 407, ../../../scss/main.scss */
+  .brew .brew-data .copy {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  /* line 415, ../../../scss/main.scss */
+  #footer .legal {
+    padding-bottom: 20px;
+  }
+
+  /* line 431, ../../../scss/main.scss */
+  .home,
+  .work .info,
+  .brew .info,
+  .about .info,
+  .about dl,
+  .work ul li,
+  .about h3,
+  .brew .brew-data,
+  .brew p,
+  .brew h3,
+  .about p,
+  #footer .footer-content {
+    width: 300px;
+  }
+}
+@keyframes bubble {
+  /* line 435, ../../../scss/main.scss */
+  0% {
+    background-position: 0 0;
+  }
+
+  /* line 436, ../../../scss/main.scss */
+  100% {
+    background-position: 0 -924px;
+  }
+}
+
+@-moz-keyframes bubble {
+  /* line 439, ../../../scss/main.scss */
+  0% {
+    background-position: 0 0;
+  }
+
+  /* line 440, ../../../scss/main.scss */
+  100% {
+    background-position: 0 -924px;
+  }
+}
+
+@-webkit-keyframes bubble {
+  /* line 444, ../../../scss/main.scss */
+  0% {
+    background-position: 0 0;
+  }
+
+  /* line 445, ../../../scss/main.scss */
+  100% {
+    background-position: 0 -924px;
+  }
+}
+
+@-o-keyframes bubble {
+  /* line 448, ../../../scss/main.scss */
+  0% {
+    background-position: 0 0;
+  }
+
+  /* line 449, ../../../scss/main.scss */
+  100% {
+    background-position: 0 -924px;
+  }
 }
